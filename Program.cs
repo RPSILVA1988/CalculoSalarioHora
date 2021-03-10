@@ -7,9 +7,11 @@ namespace CalculoSalarioHora
 	{
 		static void Main(string[] args)
 		{
+			// Seção de Declarações das variáveis
 			int matricula, horas;
 			double valorHora, salario;
 
+			// Seção de Comandos, procedimento, funções, operadores, etc...
 			Console.Write("Digite a matrícula do Funcionário: ");
 			matricula = int.Parse(Console.ReadLine());
 			Console.Write("Digite quantidade de horas trabalhadas: ");
